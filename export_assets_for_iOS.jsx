@@ -27,6 +27,30 @@ var iosAppIconExportOptions = [
         scale: "3x"
     },
     {
+        name: "iPhone-57.png",
+        size: 57,
+        type: "iPhone App (2x)",
+        idiom: "iphone",
+        sizeJSON: "57x57",
+        scale: "1x"
+    },
+    {
+        name: "iPhone-57@2x.png",
+        size: 114,
+        type: "iPhone App (3x)",
+        idiom: "iphone",
+        sizeJSON: "57x57",
+        scale: "2x"
+    },
+    {
+        name: "iPhone-29.png",
+        size: 29,
+        type: "iPhone Settings iOS 7-13 (1x)",
+        idiom: "iphone",
+        sizeJSON: "29x29",
+        scale: "1x"
+    },
+    {
         name: "iPhone-29@2x.png",
         size: 58,
         type: "iPhone Settings iOS 7-13 (2x)",
@@ -73,6 +97,46 @@ var iosAppIconExportOptions = [
         idiom: "iphone",
         sizeJSON: "60x60",
         scale: "3x"
+    },
+    {
+        name: "-iPad-50.png",
+        size: 50,
+        type: "iPad Spotlight iOS 5-6 (1x)",
+        idiom: "ipad",
+        sizeJSON: "50x50",
+        scale: "1x"
+    },
+    {
+        name: "-iPad-50@2x.png",
+        size: 100,
+        type: "iPad Spotlight iOS 5-6 (2x)",
+        idiom: "ipad",
+        sizeJSON: "50x50",
+        scale: "2x"
+    },
+    {
+        name: "-iPad-72.png",
+        size: 72,
+        type: "iPad App (1x)",
+        idiom: "ipad",
+        sizeJSON: "72x72",
+        scale: "1x"
+    },
+    {
+        name: "-iPad-72@2x.png",
+        size: 144,
+        type: "iPad App (2x)",
+        idiom: "ipad",
+        sizeJSON: "72x72",
+        scale: "2x"
+    },
+    {
+        name: "-iPad-83_5@2x.png",
+        size: 167,
+        type: "iPad Pro 12.9 App (2x)",
+        idiom: "ipad",
+        sizeJSON: "83.5x83.5",
+        scale: "2x"
     },
     {
         name: "-iPad-20.png",
